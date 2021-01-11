@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #4d4d4d;
+}
+#Login{
+    background-color:  white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -400px;
+    left:40%;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+#Login h1{
+    color:#4d4d4d;
+}
+
+#Login input{
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    border-top: 20px;
+    color:#4d4d4d;
+    outline-color: none;
+    background-color: #eeeeee;
+    left: 35%;
+}
+
+#Login button{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color: #4d4d4d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+}
+.alerta{
+    background-color: red;
+    color:white;
+    padding: 5px;
+    display: block;
+    display: none;
+}
+#Elemento{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:10px;
+    background-color: white;
+    position:absolute;
+    top:200px;
+    left:200px;
+}
+#Elemento h2{
+    color:#4d4d4d;
+    font-size: 4rem;
+    padding-top: 20px;
+}
+#Opciones {
+    position:absolute;
+    right: 200px;
+    top: 50px;
+    width: 300px;
+    min-height: 300px;
+}
+
+#Opciones ul li{
+    list-style: none;
+    width: 100%;
+    display: block;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+#Opciones ul li:hover{
+    cursor:move;
+    border: 3px dashed red;
+
+}
+#Opciones ul li h2{
+    font-size: 7rem;
+    color: #4d4d4d;
+    padding-top: 30px;
+    text-align: center;
+}
+#puntaje{
+    background-color: black;
+    padding:10px;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    font-size: 3rem;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+}
